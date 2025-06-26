@@ -1,0 +1,15 @@
+{"timestamp":"2025-06-26T03:19:13.627063","level":"warning","event":"Could not import pandas. Holidays will not be considered.","logger":"airflow.example_dags.plugins.workday"}
+{"timestamp":"2025-06-26T03:19:13.633214","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-26T03:19:13.633420","level":"info","event":"Filling up the DagBag from /Users/cintiacristinabragaangelo/Documents/airflowalura/dags/meu_primeiro_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-26T03:19:13.704989Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:19:13.705073Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:19:13.705102Z","level":"info","event":"Current task name:cria_pasta","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:19:13.705128Z","level":"info","event":"Dag name:meu_primeiro_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:19:13.705152Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:19:13.705175Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:19:13.705199Z","level":"info","event":"Task operator:<Task(BashOperator): cria_pasta>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:19:13.665014","level":"info","event":"Tmp dir root location: /var/folders/2k/9g252_7x0flg2vc39nclrmx80000gn/T","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-06-26T03:19:13.665352","level":"info","event":"Running command: ['/bin/bash', '-c', 'mkdir -p \"/Users/cintiacristinabragaangelo/Documents/airflowalura/pasta=2025-06-26 00:00:00+00:00\" ']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-06-26T03:19:13.671561","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-06-26T03:19:13.684049","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-06-26T03:19:13.684845","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0197aa3f-1504-7b42-8a9a-58f5ae7cc226'), task_id='cria_pasta', dag_id='meu_primeiro_dag', run_id='scheduled__2025-06-26T00:00:00+00:00', try_number=1, map_index=-1, hostname='OLX-J7LD743NLC', context_carrier=None, task=<Task(BashOperator): cria_pasta>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 6, 26, 3, 19, 13, 39583, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

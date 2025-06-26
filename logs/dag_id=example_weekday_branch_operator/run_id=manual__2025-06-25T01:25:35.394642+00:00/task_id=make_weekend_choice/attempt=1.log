@@ -1,0 +1,14 @@
+{"timestamp":"2025-06-25T01:25:39.313502","level":"warning","event":"Could not import pandas. Holidays will not be considered.","logger":"airflow.example_dags.plugins.workday"}
+{"timestamp":"2025-06-25T01:25:39.317960","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-25T01:25:39.318146","level":"info","event":"Filling up the DagBag from /Users/cintiacristinabragaangelo/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-25T01:25:39.337064Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-25T01:25:39.337157Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-25T01:25:39.337270Z","level":"info","event":"Current task name:make_weekend_choice","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-25T01:25:39.337300Z","level":"info","event":"Dag name:example_weekday_branch_operator","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-25T01:25:39.337394","level":"info","event":"Branch into branch_mid_week","logger":"airflow.task.operators.airflow.providers.standard.operators.weekday.BranchDayOfWeekOperator"}
+{"timestamp":"2025-06-25T01:25:39.337523","level":"info","event":"Following branch {'branch_mid_week'}","logger":"airflow.task.operators.airflow.providers.standard.operators.weekday.BranchDayOfWeekOperator"}
+{"timestamp":"2025-06-25T01:25:39.338542","level":"info","event":"Skipping tasks [('branch_weekend', -1)]","logger":"airflow.task.operators.airflow.providers.standard.operators.weekday.BranchDayOfWeekOperator"}
+{"timestamp":"2025-06-25T01:25:39.338670","level":"info","event":"Skipping downstream tasks.","logger":"task"}
+{"timestamp":"2025-06-25T01:25:39.364327Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-25T01:25:39.364358Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-25T01:25:39.364384Z","level":"info","event":"Task operator:<Task(BranchDayOfWeekOperator): make_weekend_choice>","chan":"stdout","logger":"task"}

@@ -1,0 +1,14 @@
+{"timestamp":"2025-06-26T03:30:29.949149","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-26T03:30:29.949340","level":"info","event":"Filling up the DagBag from /Users/cintiacristinabragaangelo/Documents/airflowalura/dags/dados_climaticos.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-26T03:30:29.991263Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:29.991333Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:29.991364Z","level":"info","event":"Current task name:cria_pasta","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:29.991390Z","level":"info","event":"Dag name:dados_climaticos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:29.974936","level":"info","event":"Tmp dir root location: /var/folders/2k/9g252_7x0flg2vc39nclrmx80000gn/T","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-06-26T03:30:29.975435","level":"info","event":"Running command: ['/bin/bash', '-c', 'mkdir -p \"/Users/cintiacristinabragaangelo/Documents/airflowalura/semana/2025-06-23\"']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-06-26T03:30:29.979744","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-06-26T03:30:29.998322","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-06-26T03:30:29.998941","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0197aa49-6fdc-7d00-a411-31885adc2f60'), task_id='cria_pasta', dag_id='dados_climaticos', run_id='scheduled__2025-06-23T00:00:00+00:00', try_number=1, map_index=-1, hostname='OLX-J7LD743NLC', context_carrier=None, task=<Task(BashOperator): cria_pasta>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 6, 26, 3, 30, 29, 10557, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-06-26T03:30:30.018559Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:30.018627Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:30.018658Z","level":"info","event":"Task operator:<Task(BashOperator): cria_pasta>","chan":"stdout","logger":"task"}

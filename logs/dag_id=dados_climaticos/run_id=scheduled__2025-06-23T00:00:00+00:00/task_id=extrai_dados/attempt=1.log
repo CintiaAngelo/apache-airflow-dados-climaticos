@@ -1,0 +1,10 @@
+{"timestamp":"2025-06-26T03:30:30.856646","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-26T03:30:30.856866","level":"info","event":"Filling up the DagBag from /Users/cintiacristinabragaangelo/Documents/airflowalura/dags/dados_climaticos.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-26T03:30:30.884602Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:30.884663Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:30.884693Z","level":"info","event":"Current task name:extrai_dados","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:30.884720Z","level":"info","event":"Dag name:dados_climaticos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:31.784454","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-26T03:30:31.795754Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:31.795833Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-26T03:30:31.795870Z","level":"info","event":"Task operator:<Task(PythonOperator): extrai_dados>","chan":"stdout","logger":"task"}
